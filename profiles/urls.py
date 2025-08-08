@@ -3,6 +3,6 @@ from django.urls import path,include
 
 urlspattern = [
 
-    path('add/',views.add_profile,name='add_profile')
+    #path('add/',views.add_profile,name='add_profile')
 
 ]

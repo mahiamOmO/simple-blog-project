@@ -1,8 +1,12 @@
 from django.contrib import admin
 from django.urls import path,include
+from . import views
 
 urlspattern = [
 
-    #path('add/',views.add_categories,name='add_categories')
+    path('add/',views.add_categories,name='add_categories')
 
 ]
+
+
+

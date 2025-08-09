@@ -5,5 +5,5 @@ class AuthorForm(forms.ModelForm):
     class Meta:
         model = Author
         #fields = '__all__'
-        fields = ['name','email','bio']
+        fields = ['name','email','bio','phone_no']
         #exclude = ['bio']

@@ -9,3 +9,7 @@ class Post(models.Model):
     author = models.TextField()
     category = models.ManyToManyField(Category)  # ekta post multiple category er modhe thakte pare
     author = models.ForeignKey(Author, on_delete=models.CASCADE)
+
+
+    def __str__(self):
+        return self.title 
